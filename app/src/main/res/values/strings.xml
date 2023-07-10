@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Medium</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Activity Login -->
+    <string name="login_username_input">Username</string>
+    <string name="login_password_input">Password</string>
+    <string name="login_b_login">Login</string>
+
+    <!-- Activity Register -->
+    <string name="register_username_input">Username</string>
+    <string name="register_password_input">Password</string>
+    <string name="register_b_login">Register</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_img_desc">User image</string>
+    <string name="edit_profile_hint_username">username</string>
+    <string name="edit_profile_img_changing">Change Profile Picture</string>
+
+    <!-- Side Menu -->
+    <string name="side_menu_image">A</string>
+    <string name="side_menu_name">username</string>
+    <string name="side_menu_open">Open Side Menu</string>
+    <string name="side_menu_close">Close Side Menu</string>
+    <string name="side_menu_follower">Follower</string>
+    <string name="side_menu_following">Following</string>
+    <string name="side_menu_setting">Setting</string>
+    <string name="side_menu_edit_profile">Edit Profile</string>
+    <string name="side_menu_delete_account">Delete Account</string>
+    <string name="side_menu_other">Other</string>
+    <string name="side_menu_logout">Logout</string>
+
+    <!-- Activity New Post -->
+    <string name="new_post_input">What\'s on your mind?</string>
+    <string name="new_post_add_photo">Add a photo</string>
+    <string name="new_post_image_icon_content_description">TODO</string>
+
+    <!-- Activity Comment Section -->
+    <string name="comment_section_input">Comment</string>
+    <string name="comment_section_b_send">Send</string>
+
+    <!-- Post: Properties -->
+    <string name="posts_poster_images">A</string>
+    <string name="posts_poster_name">username</string>
+    <string name="posts_creation_date">Just now</string>
+    <string name="posts_content">A web application that generates random text that you can use in sample web pages or typography samples.</string>
+    <string name="posts_n_likes">12 likes</string>
+    <string name="posts_n_comments">12 comments</string>
+    <string name="posts_b_like_text">Like</string>
+    <string name="posts_b_comment_text">Comment</string>
+    <string name="posts_image_description">An images.</string>
+
+    <!-- Comment: Properties -->
+    <string name="comments_images">A</string>
+    <string name="comments_name">username</string>
+    <string name="comments_creation_date">Just now</string>
+    <string name="comments_content">A web application that generates random text that you can use in sample web pages or typography samples.</string>
+
+    <!-- Profile: Page -->
+    <string name="profile_page_user_image">A</string>
+    <string name="profile_page_follower">Follower</string>
+    <string name="profile_page_following">Following</string>
+    <string name="profile_page_follow_button">Follow</string>
+    <string name="profile_page_unfollow_button">Unfollow</string>
+
+    <!-- Delete Account: Page -->
+    <string name="delete_account_button_txt">Delete</string>
+
+    <!-- Contact: Activity -->
+    <string name="contact_fragment_name">username</string>
+
+    <!-- Floating Action Button Icon Description -->
+    <string name="floating_action_button">Floating Button</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_default_title">Title</string>
+    <string name="toolbar_main_title">Medium</string>
+
+    <!-- Programmatically -->
+    <string name="dynamic_text_delete_account">Delete Account</string>
+    <string name="dynamic_text_comment">Comment</string>
+    <string name="dynamic_text_create_post">Create post</string>
+    <string name="dynamic_text_edit_profile">Edit Profile</string>
+    <string name="dynamic_text_followers">Followers</string>
+    <string name="dynamic_text_following">Following</string>
+
+    <!-- Menu -->
+    <string name="action_copy">Copy</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="title_activity_followers">Followers</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

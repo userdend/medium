@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/follower"
+            android:icon="@drawable/baseline_people_alt_24"
+            android:title="@string/side_menu_follower" />
+        <item
+            android:id="@+id/following"
+            android:icon="@drawable/baseline_person_24"
+            android:title="@string/side_menu_following" />
+        <item android:title="@string/side_menu_setting">
+            <menu>
+                <item
+                    android:id="@+id/edit_profile"
+                    android:icon="@drawable/baseline_settings_24"
+                    android:title="@string/side_menu_edit_profile" />
+                <item
+                    android:id="@+id/delete_account"
+                    android:icon="@drawable/baseline_delete_24"
+                    android:title="@string/side_menu_delete_account" />
+            </menu>
+        </item>
+        <item android:title="@string/side_menu_other">
+            <menu>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/baseline_power_settings_new_24"
+                    android:title="@string/side_menu_logout" />
+            </menu>
+        </item>
+    </group>
+</menu>

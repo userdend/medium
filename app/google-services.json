@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "925430887833",
+    "project_id": "myapplication-f445d",
+    "storage_bucket": "myapplication-f445d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925430887833:android:cb6aa2682c03ebb8074f08",
+        "android_client_info": {
+          "package_name": "com.boyd.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925430887833-uro8h913l8o8io0nvfbso6deaqrkvtg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boyd.myapplication",
+            "certificate_hash": "d5f38596bc77caf29016a3b14488e3c9fc675b39"
+          }
+        },
+        {
+          "client_id": "925430887833-028hhlt5a8jc7kn1jd55tr993cpr38fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAduaFR4c_Lbbi6iVVFYUZFA_qNyKqntV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925430887833-028hhlt5a8jc7kn1jd55tr993cpr38fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

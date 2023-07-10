@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.component.ProfilePage">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_custom_2" />
+
+    <ImageView
+        android:id="@+id/profilePage_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/default_img"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include" />
+
+    <TextView
+        android:id="@+id/profilePage_follower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/profile_page_follower"
+        app:layout_constraintStart_toEndOf="@+id/profilePage_picture"
+        app:layout_constraintTop_toBottomOf="@+id/include" />
+
+    <TextView
+        android:id="@+id/profilePage_following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/profile_page_following"
+        app:layout_constraintStart_toEndOf="@+id/profilePage_picture"
+        app:layout_constraintTop_toBottomOf="@+id/profilePage_follower" />
+
+    <Button
+        android:id="@+id/profilePage_followButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/profile_page_follow_button"
+        app:layout_constraintStart_toEndOf="@+id/profilePage_picture"
+        app:layout_constraintTop_toBottomOf="@+id/profilePage_following" />
+</androidx.constraintlayout.widget.ConstraintLayout>
